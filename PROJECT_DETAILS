@@ -1,0 +1,17 @@
+Key features of the compiler design project include:
+• ● Lexical Analysis: The lexical analyser performs tokenization, converting the source code into a stream of meaningful tokens. It identifies keywords, operators, identifiers, literals, and other language constructs, following a well-defined set of lexical rules.
+• ● Syntax Analysis: The syntax parser utilizes a context-free grammar to parse the token stream, generating an abstract syntax tree (AST) that represents the program's structure. The parser ensures that the input adheres to the language's syntax rules.
+• ● Semantic Analysis: The semantic analyser checks the validity and consistency of the source code, identifying type errors, undeclared variables, and other semantic issues. It also generates a symbol table to manage program symbols and their attributes.
+• ● Intermediate Code Generation: The intermediate code generator produces an intermediate representation of the program, facilitating subsequent optimization and translation phases. This intermediate code is a platform-independent representation of the source code.
+• ● Code Optimization: The code optimizer optimizes the intermediate code to improve the efficiency of the generated machine code. It applies various optimization techniques to reduce execution time and memory usage.
+• ● Code Generation: The code generator generates target machine code, specific to a chosen architecture or virtual machine. This code is ready for execution on the target platform.
+
+CAT is a compiler designed for compiling C++ subset languages primarily written in lex and yacc. The following functions are performed by it:
+• Language Subset: The compiler processes a subset of the C++ language.
+• Compilation Phases: It goes through all the main phases of a compiler, including lexical analysis, syntax
+analysis, semantic analysis, intermediate code generation, and target code generation.
+• Error Detection: The compiler detects and reports syntax and semantic errors in the source code.
+• Optional Optimization: Optionally, it can apply optimization techniques to improve the runtime
+performance of the generated code.
+• Target Assembly Code: The compiler generates target assembly code, making it suitable for execution on
+a specific target architecture.
